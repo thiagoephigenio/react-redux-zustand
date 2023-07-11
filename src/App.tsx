@@ -1,10 +1,17 @@
-function App() {
+import { useEffect } from 'react';
 
-  return (
-    <>
-      <div></div>
-    </>
-  )
+function App() {
+    const teste = 'asdasd';
+    useEffect(() => {
+        console.log('teste', teste);
+    }, []);
+  
+    return (
+        <div> 
+
+        </div>
+        
+    );
 }
 
-export default App
+export default App;
